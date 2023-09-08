@@ -103,13 +103,13 @@ h1 {
   font-size: 14px;
   margin-top: 10px;
 }
-/* Stile del titolo del libro */
+
 .book-title {
   font-size: 28px; 
   font-weight: bold;
   color: #333;
   margin-bottom: 8px;
-  /* Aggiungi sfumature */
+  
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   background-color: #e52b50; 
   color: white; 
@@ -249,5 +249,12 @@ h1 {
   .book {
     flex-basis: calc(25% - 20px);
    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search_wrap {
+    width: 100%;
+    margin: 20px 0;
   }
 }

@@ -14,7 +14,7 @@ DPs Open Library is a web application that allows users to search for books by c
 
 ## Demo
 
-  You can see a live demo of the project [https://dpsopenlibrary.netlify.app/](#)
+  You can see a live demo of the project : https://dpsopenlibrary.netlify.app/
 
 ## Features
 

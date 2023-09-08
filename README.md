@@ -1,6 +1,6 @@
-# DPs Open Library
+# DP's Open Library
 
-DPs Open Library is a web application that allows users to search for books by category using the Open Library API. Users can enter a book category, and the application will fetch and display a list of books related to that category. Users can then click on a book to view its details, including the title, author(s), cover image, and description.
+DP's Open Library is a web application that allows users to search for books by category using the Open Library API. Users can enter a book category, and the application will fetch and display a list of books related to that category. Users can then click on a book to view its details, including the title, author(s), cover image, and description.
 
 ## Table of Contents
 - [Demo](#demo)

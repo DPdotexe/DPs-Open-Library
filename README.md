@@ -53,7 +53,7 @@ Before you begin, ensure you have met the following requirements:
  ```bash
    npm install
 ```
-   Usage
+ ##  Usage
 - Enter a book category in the search box and click the search button or press Enter.
 - The application will fetch and display a list of books related to the entered category.
 - Click on a book to view its details, including the title, author(s), cover image, and description.

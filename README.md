@@ -49,8 +49,7 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/DPdotexe/DPs-Open-Library.git
 ```
 2. Install NPM packages
-```
-   npm install
+ npm install
 ```
  ##  Usage
 - Enter a book category in the search box and click the search button or press Enter.

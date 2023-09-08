@@ -10,7 +10,7 @@ DPs Open Library is a web application that allows users to search for books by c
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Authors](#authors)
+- [Author](#author)
 
 ## Demo
 

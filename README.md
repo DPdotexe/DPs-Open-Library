@@ -47,7 +47,6 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/DPdotexe/DPs-Open-Library.git
-```bash
 ```
 2. Install NPM packages
  ```bash

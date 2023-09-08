@@ -47,13 +47,12 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/DPdotexe/DPs-Open-Library.git
-```
 2. Install NPM packages:
 
- ```bash
- npm install
+   ```bash
+   npm install
 
- ```
+
  ##  Usage
 - Enter a book category in the search box and click the search button or press Enter.
 - The application will fetch and display a list of books related to the entered category.

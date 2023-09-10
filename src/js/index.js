@@ -43,12 +43,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // loader after
       document.getElementById('loader').style.display = 'none';
-
-      if (books.length > 0) {
+      
+      //book info 
+      if (books.length > 0) { 
         books.forEach(async (book) => {
           const bookInfo = await getBookInfo(book);
           if (bookInfo) {
-            const bookId = book.key; // bookinfo
+            const bookId = book.key;
 
             if (!bookContainer.querySelector(`[data-key="${bookId}"]`)) {
               const bookItem = document.createElement('div');

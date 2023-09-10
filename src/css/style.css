@@ -69,6 +69,7 @@ h1 {
   color: #fff;
   font-size: 20px;
 }
+/* book style */
 #book-container {
   width: 80%;
   display: none;
@@ -82,9 +83,7 @@ h1 {
     #book-container.loading {
       display: none;
     }
-    
 
-/* book style */
 .book {
   flex-basis: calc(25% - 20px); 
   border: 1px solid #ddd; 

@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         books.forEach(async (book) => {
           const bookInfo = await getBookInfo(book);
           if (bookInfo) {
-            const bookId = book.key; // Cambia bookKey a bookId o a qualsiasi altro nome che preferisci
+            const bookId = book.key; // bookinfo
 
             if (!bookContainer.querySelector(`[data-key="${bookId}"]`)) {
               const bookItem = document.createElement('div');

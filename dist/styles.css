@@ -5,9 +5,6 @@
 /*!*************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css (1) ***!
   \*************************************************************************/
-/* Importa il font da Google Fonts */
-
-/* Reset dei margini e dei padding e definizione del font di default */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +13,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Stile del body */
+/* Style body */
 body {
     display: flex;
     flex-direction: column; /* Cambia la direzione del layout a verticale */
@@ -25,7 +22,7 @@ body {
     height: 100vh; /* Imposta l'altezza al 100% della viewport per centrare verticalmente */
 }
 
-/* Stile dell'elemento h1 */
+/* Style h1 */
 h1 {
     color: #e52b50;
     font-size: 50px;
@@ -34,19 +31,19 @@ h1 {
     margin-top: 80px;
 }
 
-/* Stile della barra di ricerca */
+/* Style search box */
 .search_wrap {
   width: 600px;
   margin: 20px auto; 
   position: relative;
 }
 
-/* Stile del contenitore della barra di ricerca */
+
 .search_wrap .search_box {
   position: relative; 
 }
 
-/* Stile dell'input di ricerca */
+
 .search_wrap .search_box .input {
   width: 100%;
   height: 60px;
@@ -55,7 +52,7 @@ h1 {
   font-size: 18px;
 }
 
-/* Stile del pulsante di ricerca */
+
 .search_wrap .search_box .search_btn {
   width: 60px;
   height: 100%;
@@ -68,17 +65,17 @@ h1 {
   border-bottom-right-radius: 50px;
 }
 
-/* Stile del pulsante di ricerca al passaggio del mouse */
+
 .search_wrap .search_box .search_btn:hover {
   background: #e52b50;
 }
 
-/* Stile del testo nel pulsante di ricerca */
+
 .search_wrap .search_box .search_btn i {
   color: #fff;
   font-size: 20px;
 }
-/* Stile del container dei libri */
+/* book style */
 #book-container {
   width: 80%;
   display: none;
@@ -94,7 +91,7 @@ h1 {
     }
     
 
-/* Stile dei singoli elementi libro (copertina e descrizione) */
+
 .book {
   flex-basis: calc(25% - 20px); 
   border: 1px solid #ddd; 
@@ -103,7 +100,7 @@ h1 {
   text-align: center;
   margin-bottom: 20px; 
 }
-/* books style */
+
 .book img {
   max-width: 100%;
   height: auto;
@@ -113,7 +110,7 @@ h1 {
   font-size: 14px;
   margin-top: 10px;
 }
-/* Stile del titolo del libro */
+
 .book-title {
   font-size: 28px; 
   font-weight: bold;
@@ -154,7 +151,7 @@ h1 {
 }
 
 .search-result-item {
-  margin-bottom: 20px; /* Spazio tra i risultati di ricerca */
+  margin-bottom: 20px; 
 
 }
 
@@ -234,7 +231,7 @@ h1 {
   z-index: 1000;
 }
 
-/* Stili CSS per il logo */
+
 .logo-container {
   display: flex;
   align-items: center;

@@ -16,10 +16,10 @@
 /* Style body */
 body {
     display: flex;
-    flex-direction: column; /* Cambia la direzione del layout a verticale */
+    flex-direction: column; 
     align-items: center;
     background-color: #242424;
-    height: 100vh; /* Imposta l'altezza al 100% della viewport per centrare verticalmente */
+    height: 100vh; 
 }
 
 /* Style h1 */

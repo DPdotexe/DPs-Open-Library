@@ -111,6 +111,12 @@ h1 {
   font-size: 14px;
   margin-top: 10px;
 }
+.book .book-description::before {
+  content: "Description: "; 
+  font-weight: bold; 
+  display: block; 
+  margin-bottom: 5px;
+}
 
 .book-title {
   font-size: 28px;

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="icon" href="./img/favicon open-library.png">
-
   <title>DP's Open Library</title>
 </head>
 <body>
@@ -16,20 +14,20 @@
    <nav class="navbar">
     <div class="navbar-container">
       <div class="logo-container">
-        <img src= "./img/favicon open-library.png" alt="Open Library Logo" class="logo-image">
+        <img src="./img/favicon open-library.png" alt="Open Library Logo" class="logo-image">
       </div>
-      </ul>
     </div>
   </nav>
   <!-- search bar -->
   <h1>Search your books!</h1>
   <div class="search_wrap">
-    <div id="searchbox" class="search_box">
-      <input type="text" id="book-name" class="input" placeholder="Type your book by category...">
-      <button id="btn" type="button" class="search_btn">
+    <form id="search-form">
+      <input type="text" id="book-name" class="input" placeholder="Type your book by category..." required>
+      <button type="submit" class="search_btn">
         <i class="bi bi-search"></i>
       </button>
-    </div>
+      </div>
+    </form>
     <ul id="result"></ul>
   </div>
   <!-- loader -->
@@ -37,7 +35,8 @@
   <!-- book container -->
   <div id="book-container"></div>
 
-  <script defer src="bundle.js"></script>
 
+  <script defer src="bundle.js"></script>
+  
 </body>
 </html>

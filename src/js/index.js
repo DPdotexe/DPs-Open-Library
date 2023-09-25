@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loader.style.display = 'block'; // show loader
     resultList.innerHTML = ''; // clear results
 
-    const categoryInput = searchInput.value.trim().replace(/\s+/g, '_');
+    const categoryInput = searchInput.value.trim().replace(/\s+/g, '_').toLowerCase(); 
     if (categoryInput) {
       const books = await getBookData(categoryInput); // get book data
       loader.style.display = 'none'; // hide loader

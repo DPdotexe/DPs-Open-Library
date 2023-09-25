@@ -25,7 +25,7 @@ async function getBookInfo(book) {
         let description = bookData.description.value || bookData.description;
         bookData.descriptionString = description;
       } else {
-        bookData.descriptionString = 'Not found';
+        bookData.descriptionString = 'Not Found';
       }
 
       return bookData;
